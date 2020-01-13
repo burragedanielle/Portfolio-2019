@@ -1,8 +1,12 @@
 body {
     line-height: 1.8;
     background-color: #fffbf2;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 
+}
+
+hr {
+    border-top: dashed 1px;
 }
 
 .hero-image {
@@ -14,6 +18,62 @@ body {
     background-color: #000 !important;
     opacity: .8;
 }
+
+h3 {
+    text-transform: lowercase;
+}
+
+h4 {
+    font-family: 'Yeseva One', cursive;
+}
+
+a {
+    color: #985e6d;
+}
+
+.card {
+    margin-left: 1rem;
+}
+
+.card-body {
+    height: 350px;
+    overflow: auto;
+}
+
+.btn {
+    font-family: 'Yeseva One', cursive;
+}
+
+.btn-app {
+    background-color: pink;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.btn-code {
+    background-color: #985e6d; 
+    text-transform: uppercase;
+}
+
+.btn-code:active,
+.btn-code:hover {
+    background-color: transparent;
+    border: 1px solid #985e6d;
+    color: #985e6d; 
+    text-transform: uppercase;
+}
+
+.btn-app:active,
+.btn-app:hover {
+    background-color: transparent;
+    border: 1px solid pink;
+    color: pink; 
+    text-transform: uppercase;
+}
+
+
+
+
 
 .scroll {
     position: absolute;
@@ -52,7 +112,7 @@ body {
   }
 
 h1 {
-    font-family: 'Prata', serif;
+    font-family: 'Yeseva One', cursive;
     font-size: 70px;
     position: relative;
     top: 150px;
@@ -61,7 +121,7 @@ h1 {
 
 h2, 
 h3 {
-    font-family: 'Prata', serif;
+    font-family: 'Yeseva One', cursive;
 }
 
 p {
